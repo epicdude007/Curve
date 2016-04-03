@@ -6,7 +6,9 @@
   
 }
 
-body {
-  bakground-color: #FFFFFF;
-  
+#StartQuote {
+  font-size: 15px;
+  color: #29a329;
+  font: Georgia;
+  font-weight: italic;
 }
