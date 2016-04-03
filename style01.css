@@ -2,13 +2,27 @@
   font: Georgia;
   text-align: center;
   font-weight: bold;
-  font-size: 25px;
-  
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+.TitleDesign {
+	
+	width: 1000px;
+	padding: 25px 10px 10px 315px;
+
+
 }
 
 #StartQuote {
-  font-size: 15px;
+  font-size: 22px;
   color: #29a329;
   font: Georgia;
   font-weight: italic;
+  text-align: center;
+  background-color: #E0E0E0;
+}
+
+body {
+	background-color: #ffffff;
 }
