@@ -23,6 +23,14 @@
   background-color: #E0E0E0;
 }
 
+#aboutHeader {
+	text-align: left;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 40px;
+	font: Arial;
+}
+
 body {
 	background-color: #ffffff;
 }
