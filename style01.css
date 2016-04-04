@@ -1,15 +1,11 @@
 .Title {
-  font-family: prime;
+  font-family: Sans-Serif;
   text-align: center;
   font-weight: bold;
   font-size: 35px;
   text-decoration: underline;
 }
 
-@font-face {
-	font-family: prime;
-	src: url(http://www.1001freefonts.com/prime_script.font);
-}
 
 .TitleDesign {
 	
