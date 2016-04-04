@@ -31,6 +31,16 @@
 	font: Arial;
 }
 
+@keyframes backg {
+	from {
+		background: #c4c3be;
+	}
+	to {
+		background: #FFFFFF;
+	}
+}
+
 body {
-	background-color: #ffffff;
+	animation-name: backg;
+	animation-duration: 5s;
 }
