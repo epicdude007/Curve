@@ -1,9 +1,14 @@
 .Title {
-  font: Georgia;
+  font-family: prime;
   text-align: center;
   font-weight: bold;
   font-size: 35px;
   text-decoration: underline;
+}
+
+@font-face {
+	font-family: prime;
+	src: url(http://www.1001freefonts.com/prime_script.font)
 }
 
 .TitleDesign {
@@ -12,6 +17,11 @@
 	padding: 25px 10px 10px 315px;
 
 
+}
+
+.Links {
+	text-align: center;
+	font-size: 20px;
 }
 
 #StartQuote {
