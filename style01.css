@@ -32,20 +32,16 @@
 }
 
 @keyframes backg {
-	0%{background-color: black;}
+	0%{background-color: white;}
 	25&{background-color: blue;}
-	50&{background-color: purple;}
-	75%{background-color: blue;}
+	50&{background-color: white;}
+	65%{background-color: blue;}
 	100%{background-color: white;}
 }
 
-div {
-	width: 1000px;
-	height: 1300px;
-	-webkit-animation-duration: 4s;
-	-webkit-animation-name: backg;
-}
 
 body {
-	background-color: white;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-name: backg;
+
 }
