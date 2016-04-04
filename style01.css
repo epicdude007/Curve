@@ -6,8 +6,9 @@
   text-decoration: underline;
 }
 
-div::firstLine {
-	font-size: 36px;
+div::first-letter {
+	text-align: center;
+	font-size: 40px;
 }
 
 nav a {
