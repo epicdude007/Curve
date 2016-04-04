@@ -6,6 +6,22 @@
   text-decoration: underline;
 }
 
+div::firstLine {
+	font-size: 36px;
+}
+
+nav a {
+ /* Code */	
+}
+
+nav a:hover {
+	/*Code */
+}
+
+nav:active {
+	/*Code*/
+}
+
 
 .TitleDesign {
 	
