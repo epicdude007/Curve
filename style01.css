@@ -8,7 +8,7 @@
 
 @font-face {
 	font-family: prime;
-	src: url('http://www.1001freefonts.com/prime_script.font');
+	src: url(http://www.1001freefonts.com/prime_script.font);
 }
 
 .TitleDesign {
@@ -21,14 +21,10 @@
 
 .Links {
 	text-align: center;
-	font-size: 25px;
-	
+	font-size: 20px;
 }
 
-.Content {
-	-webkit-animation-name: backg;
-	-webkit-animation-duration: 5s;
-}
+
 
 #StartQuote {
   font-size: 22px;
@@ -50,12 +46,17 @@
 @keyframes backg {
 	0%{background-color: white;}
 	25&{background-color: blue;}
-	50&{background-color: white;}
-	65%{background-color: blue;}
+	50&{background-color: blue;}
+	75%{background-color: purple;}
 	100%{background-color: white;}
 }
 
+body {
+	
+	animation-name: backg;
+	animation-duration: 3s;
+}
 
-body{
-	background-color: white;
+.Content {
+	
 }
