@@ -44,17 +44,18 @@
 }
 
 @keyframes backg {
-	0%{background-color: white;}
-	25&{background-color: blue;}
-	50&{background-color: blue;}
-	75%{background-color: purple;}
-	100%{background-color: white;}
+	0%{background-color: #E6E6E6;}
+	25&{background-color: #D8D8D8;}
+	50&{background-color: #A4A4A4;}
+	75%{background-color: #585858;}
+	100%{background-color: #A4A4A4;}
 }
 
 body {
 	
 	animation-name: backg;
-	animation-duration: 3s;
+	animation-duration: 4s;
+	background-color: #D8D8D8 ;
 }
 
 .Content {
