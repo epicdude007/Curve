@@ -57,17 +57,21 @@ nav:active {
 }
 
 @keyframes backg {
-	0%{background-color: #E6E6E6;}
-	25&{background-color: #D8D8D8;}
-	50&{background-color: #A4A4A4;}
-	75%{background-color: #585858;}
-	100%{background-color: #A4A4A4;}
+	0%{background-color: #000000 ;}
+	10%{background-color: #212121;}
+	20%{background-color:#303030;}
+	40%{background-color:#3D3D3D;}
+	60%{background-color:#4A4A4A;}
+	75%{background-color:#6A6B6B;}
+	90%{background-color:#949494;}
+	95%{background-color:#A2A5A6;}
+	100%{background-image: url("http://il9.picdn.net/shutterstock/videos/5383034/thumb/10.jpg");}
 }
 
 body {
 	
 	animation-name: backg;
-	animation-duration: 4s;
+	animation-duration: 4.5s;
 	background-color: #D8D8D8 ;
 }
 
